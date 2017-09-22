@@ -1,13 +1,14 @@
 @import 'alom.css';
 
+
 @font-face {
 	font-family: "EurostileLTStd-BoldEx2";
-    src: url("fonts/EUROSTILE/EurostileLTStd-BoldEx2.otf");
+    src: url("../fonts/EUROSTILE/EurostileLTStd-BoldEx2.otf");
 }
 
 @font-face {
 	font-family: "Akkurat-mono";
-    src: url("fonts/AKKURAT/Akkurat-Mono.otf");
+    src: url("../fonts/AKKURAT/Akkurat-Mono.otf");
 }
 
 * {

@@ -3,7 +3,7 @@
 	 <head>
 	  	<meta charset="UTF-8">
 	  	<title> Casegort </title>
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	    <link rel="stylesheet" href="styles/slider.css">
 	  	<script type="text/javascript" src="js/slider.js"></script> 
 	    <script type="text/javascript" src="js/header.js"></script>
@@ -141,14 +141,23 @@
 					<nav>
 						<ul class="normal-menu">
 							<li id="li-img"></li>
-							<div>
-							<li> <a href="index.html">ACERCA</a></li>
-							<li> <a href="products.html">PRODUCTOS</a></li>
-							<li> <a href="clientes.html">CLIENTES</a></li>
-							<li> <a href="contacto.html">CONTACTO</a></li>		
-								
+							<div id="head-list">
+								<li> <a href="index.html">ACERCA</a></li>
+								<li> <a href="products.html">PRODUCTOS</a></li>
+								<li> <a href="clientes.html">CLIENTES</a></li>
+								<li> <a href="contacto.html">CONTACTO</a></li>						
 							</div>
+						<div class="dropdown" id="dropdown">
+						    <button onclick="myFunction()"> <img src="images/menu.png" class="dropbtn"> </button>
+						    <div class="dropdown-content" id="myDropdown">
+						      <a href="index.html">ACERCA</a>
+						      <a href="products.html">PRODUCTOS</a>
+						      <a href="clientes.html">CLIENTES</a>
+						      <a href="contacto.html">CONTACTO</a>
+						    </div>
+						</div>
 						</ul>
+
 					</nav>
 			</header>
 
