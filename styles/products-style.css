@@ -1,0 +1,166 @@
+.top-background {
+	background-image: url(../images/18.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.top-text {
+	height: 450px;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.top-main-copy .euro-font {
+	letter-spacing: 1.17px;
+	margin-bottom: 30px;
+}
+
+
+.body-btn {
+	margin: 30px 13px 0 13px; 
+	background-color: #000;
+	color: #fdd916;
+	border: 1px solid #fdd916;
+}
+
+.med-options {
+	background-color: #101010;
+}
+
+
+.med-capacidades div {
+	height: 200px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.med-capacidades p {
+	font-size: 15px;
+	width: 100%;
+}
+
+.lin-capacidades div {
+	height: 200px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.lin-capacidades p {
+	font-size: 15px;
+	width: 100%;
+}
+
+.lin-capacidades button {
+	width: 180px;
+}
+
+.capac-info {
+	height: 100%;
+}
+
+.capac-info .col-3 {
+	padding: 10px 50px 0px 0px;
+	margin-bottom: 50px;
+}
+
+.capac-info .col-3 p {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+/*///SLIDER///*/
+
+.fadeInUp {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+
+    #slides,
+    #slides2,
+    #slides3,
+    #slides4,
+    #slides5 {
+      display: none;
+      margin-bottom:50px;
+    }
+
+    #slides a:nth-child(4),
+    #slides a:nth-child(5),
+    #slides2 a:nth-child(4),
+    #slides2 a:nth-child(5),
+    #slides3 a:nth-child(4),
+    #slides3 a:nth-child(5),
+    #slides4 a:nth-child(4),
+    #slides4 a:nth-child(5),
+    #slides5 a:nth-child(4),
+    #slides5 a:nth-child(5) {
+    	display: none;
+    }
+
+    .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    .slidesjs-previous {
+      margin-left: 10%;
+      float: left;
+      text-align: center;
+    }
+
+    .slidesjs-next {
+      margin-right: 10%;
+      float: right;
+      text-align: center;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 7px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 15px;
+      height: 13px;
+      padding-top: 13px;
+      border: 1px solid #fff;      
+      border-radius: 30px;
+      background-position: 0 0;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    .slidesjs-navigation {
+    	position: relative;
+    	margin-top: -30%;
+    	z-index: 21;
+    }
+
+     .slidesjs-navigation a {
+     	margin-right: 30px;
+     }
+
+
+
+
+

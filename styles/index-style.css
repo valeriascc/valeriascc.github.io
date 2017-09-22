@@ -1,0 +1,120 @@
+.home-body {
+	background-color: #101010;
+	position: relative;
+}
+
+.home-body .col-6{
+	height: 324px;
+}
+
+.home-body .row p {
+	font-size: 14px;
+}
+
+.home-body .row .euro-font {
+	font-size: 20px;
+	text-decoration-line: underline;
+}
+
+.home-body .row .col-6 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.top-body {
+	position: relative;
+}
+
+.top-background {
+	background-image: url(../images/12.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.top-text {
+	height: 450px;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.top-main-copy .euro-font {
+	letter-spacing: 1.17px;
+	margin-bottom: 30px;
+}
+
+.row #exp {
+	background-image: url(../images/1.jpg);
+	transition: ease 0.5s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.parent:hover #exp,
+.parent:focus #exp,
+.parent:hover .tec,
+.parent:focus .tec,
+.parent:hover .res,
+.parent:focus .res,
+.parent:hover .per,
+.parent:focus .per,
+.parent:hover .efi,
+.parent:focus .efi,
+.parent:hover .gar,
+.parent:focus .gar {
+  transform: scale(1.2);
+}
+
+.col-6 {
+	overflow: hidden;
+}
+
+.row .tec {
+	background-image: url(../images/3.jpg);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.row .res {
+	background-image: url(../images/4.jpg);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.row .per {
+	background-image: url(../images/5.jpg);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.row .efi {
+	background-image: url(../images/6.jpg);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.row .gar {
+	background-image: url(../images/7.jpg);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+

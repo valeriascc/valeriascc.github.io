@@ -1,0 +1,44 @@
+.top-background {
+	background-color: #101010;
+	height: 100%;
+	width: 100%;
+}
+
+.top-background .col-6 {
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-main-copy .euro-font {
+	font-size: 18px;
+	letter-spacing: 1.17px;
+	margin-bottom: 30px;
+	color: #fdd916;
+}
+
+.top-background .row .col-6 button {
+	margin-top: 30px;
+}
+
+#map {
+   width: 100%;
+   height: 600px;
+ }
+
+ #map #mapa-plan {
+ 	background-image: url(../images/mapa-plan.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ #map #mapa-ofi {
+ 	background-image: url(../images/mapa-ofi.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	width: 100%;
+ 	height: 100%;
+ }
