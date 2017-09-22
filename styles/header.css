@@ -65,18 +65,3 @@ nav .normal-menu li a:hover {
   z-index: 20;
 }
 
-.ham-menu {
-	margin-top: 63px;
-	float: right;
-	background-color: red;
-	z-index: 20;
-}
-
-.ham-menu li {
-  list-style: none;
-  display: block;
-  padding: 15px 30px 10px 30px;
-  height: 100%;
-	width: 100%;
-}
-
