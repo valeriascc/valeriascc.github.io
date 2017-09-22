@@ -1,5 +1,15 @@
 @import 'alom.css';
 
+@font-face {
+	font-family: "EurostileLTStd-BoldEx2";
+    src: url("EurostileLTStd-BoldEx2.otf");
+}
+
+@font-face {
+	font-family: "Akkurat-mono";
+    src: url("Akkurat-Mono.otf");
+}
+
 * {
   font-family: "Akkurat-mono", sans-serif;
   -webkit-font-smoothing: antialiased;
