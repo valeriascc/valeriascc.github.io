@@ -65,15 +65,27 @@ button:hover {
 	text-decoration-line: underline;
 }
 
-button:focus,
-button:active,
-button:target {
+.medida-buttons button {
+  border-color: #fdd916;
+  color: #fdd916;
+}
+
+.linea-buttons button {
+  border-color: #fdd916;
+  color: #fdd916;
+}
+
+button.selected {
 	background-color: #fdd916;
 	color: #000;
 	border: 1px solid #fdd916;
 }
 
 .hidden {
+	display: none;
+}
+
+#hidden {
 	display: none;
 }
 
@@ -89,4 +101,12 @@ button:target {
 	animation-duration: 1s;
 	animation-fill-mode: both;
 }
+
+.reverse-btn:hover {
+	background-color: #fdd916;
+	color: #000;
+	border: 1px solid #fdd916;
+}
+
+
 

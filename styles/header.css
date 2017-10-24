@@ -119,7 +119,7 @@ nav .normal-menu li a:hover {
 
 @media screen and (max-width: 768px)  { 
 
-	#dropdown {
+	#dropdown, #myDropdown  {
 		display: block;
 	}
 
@@ -131,7 +131,7 @@ nav .normal-menu li a:hover {
 
 @media screen and (min-width: 768px) {
 	 
-	#dropdown {
+	#dropdown{
 		display: none;
 	 }
 	}

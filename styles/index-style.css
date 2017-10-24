@@ -65,7 +65,9 @@
 .parent:hover .efi,
 .parent:focus .efi,
 .parent:hover .gar,
-.parent:focus .gar {
+.parent:focus .gar,
+.parent:hover .gps,
+.parent:focus .gps {
   transform: scale(1.2);
 }
 
@@ -117,4 +119,19 @@
 	background-position: center;
   	background-size: cover;
 }
+
+.row .gps {
+	background-image: url(../images/23.png);
+	transition: all 0.3s;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+}
+
+.home-body .row p {
+	margin: 0;
+	padding: 0 70px 0 70px;
+}
+
 

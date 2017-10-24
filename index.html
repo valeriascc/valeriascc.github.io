@@ -2,143 +2,129 @@
 <html lang="es">
 	 <head>
 	  	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<title> Casegort </title>
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	  	<script type="text/javascript" src="js/wow.js"></script>
-	    <link rel="stylesheet" href="styles/slider.css">
 	  	<script type="text/javascript" src="js/header.js"></script>
 	    <link rel="stylesheet" href="styles/header.css">
 	    <link rel="stylesheet" href="styles/animate.css">
 	    <link rel="stylesheet" href="styles/forms.css">
 	    <link rel="stylesheet" href="styles/index-style.css">
 	    <link rel="stylesheet" href="styles/footer.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="styles/slider-main2.css">
+		<style>
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+		  width: 100%;
+		  margin: auto;
+		}
+		</style>
 	</head>
 
 
 	<body>
 
-<section class="slideshow-container">
 
-				<div class="aprende-btn fadeInUp">
-					<button id="aprende-mas" class="copy-btn"> Aprende más</button>		
-				</div>
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators fadeInUp">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
 
-				<div class="movers fadeInUp">
-				  <span class="circle" onclick="currentDiv(1)"></span>
-				  <span class="circle" onclick="currentDiv(2)"></span>
-				  <span class="circle" onclick="currentDiv(3)"></span>
-				  <span class="circle" onclick="currentDiv(4)"></span>
-				  <span class="circle" onclick="currentDiv(5)"></span>
-				</div>
-				
-	<!-- SLIDE 1 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-1"> <!-- text -->
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p class="text-center">PRODUCTOS 100% MEXICANOS</p>
-						</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-1">
-								<p class="euro-font"> 25 AÑOS <span> DOMINANDO</span> LA CREACIÓN DE CAJAS DE <span>SEGURIDAD </span>MÓVIL
-								</p>							
-							</div>
+    <div class="slider-header fadeInUp">
+          <p>DESDE 1992</p>
+          <img src="images/logo.png">
+          <p class="text-center">PRODUCTOS 100% MEXICANOS</p>
+        </div>
 
-							<div class="small-text fadeInUp">
-									<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>											
-								</div>
-							
+      <div class="item active">
+        <img src="images/slider-1.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> 25 AÑOS <span> DOMINANDO</span> LA CREACIÓN DE CAJAS DE <span>SEGURIDAD </span>MÓVIL
+                </p>
+            </div>
 
-						</div>
-					</div>
-				</div>
+          <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-	<!-- SLIDE 2 -->
+      <div class="item">
+        <img src="images/slider-2.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> FABRICADAS A PARTIR DE LA <span>MEJOR</span> TECNOLOGÍA, <span>INGENIEROS Y EXPERTOS </span>
+                </p>
+            </div>
 
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-2">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
 
-						<div class="slider-text  align vertical">
-							<div class="big-text fadeInUp" id="big-text-2">
-								<p class="euro-font">FABRICADAS A PARTIR DE LA <span> MEJOR </span> TECNOLOGÍA, <span>INGENIEROS Y EXPERTOS <span></span> </p>
-							</div>	
-							<div class="small-text fadeInUp">
-								<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>			
-							</div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/slider-3.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> IDEALES PARA <span> TRANSPORTE
+                </span> TERRESTRE, MÁQUINAS VENDING Y PRODUCTOS <span> PERSONALIZADOS </span>
+                </p>
+            </div>
 
-						</div>
-					</div>
-				</div>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-	<!-- SLIDE 3 -->
+      <div class="item">
+      <img src="images/slider-4.png" >
+      <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> NUESTRA <span>EXPERIENCIA</span>Y TRAYECTORIA NOS HACE <span>EXPERTOS </span>
+                </p>
+            </div>
 
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-3">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-3">
-								<p class="euro-font"> IDEALES PARA <span> TRANSPORTE</span> TERRESTRE, MÁQUINAS VENDING Y PRODUCTOS <span>PERSONALIZADOS</span>	</p>
-							</div>	
-								<div class="small-text fadeInUp">
-									<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-								</div>
-						</div>
-					</div>
-				</div>
+      <div class="item">
+      <img src="images/slider-5.png" >
+      <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> UNA VERDADERA <span> INVERSIÓN</span>PARA TU MAYOR SEGURIDAD, NO UN GASTO <span>INNECESARIO </span>
+                </p>
+            </div>
 
-	<!-- SLIDE 4 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-4">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
+  
+    </div>
 
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-4">
-								<p class="euro-font"> NUESTRA <span>EXPERIENCIA</span>Y TRAYECTORIA NOS HACE <span>EXPERTOS</span>	</p>	
-							</div>
-							<div class="small-text fadeInUp">
-								<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-	<!-- SLIDE 5 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-5">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
-
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-5">
-								<p class="euro-font"> UNA VERDADERA <span>INVERSIÓN</span> PARA TU MAYOR SEGURIDAD,NO UN GASTO <span>INNECESARIO</span></p>
-							</div>	
-							<div class="small-text fadeInUp">
-								<p class="fadeInUp"> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-		</section>
+    <!-- Left and right controls -->
+    
+  </div>
+</div>
 
 <!-- //// TOP BODY //// -->
 
@@ -172,7 +158,7 @@
 				<div class="top-text display-block text-center">
 					<div class="top-main-copy align vertical">
 						<p class="euro-font">LA MEJOR <span>INVERSIÓN</span>  <br>PARA LA SEGURIDAD MÓVIL DE <br>TU <span>NEGOCIO</span> </p>					
-						<p>Nuestra experiencia nos permite adaptarnos a los vehículos <br>de cualquier tipo de industria, ofreciendo artículos de línea <br> y personalizados. Nuestra estrcutura comprende:</p>
+						<p>Nuestra experiencia nos permite adaptarnos a los vehículos <br>de cualquier tipo de industria, ofreciendo artículos de línea <br> y personalizados. <br> Nuestra estrcutura comprende:</p>
 					</div>
 				</div>
 			</div>			
@@ -231,7 +217,16 @@
 					</div>
 				</div>
 				<p class="col-6 align-flex center wow fadeInUp">Disminución de robos al 100% garantizado</p>
-			</div>		
+			</div>	
+
+			<div class="row text-center">
+				<p class="col-6 align-flex center wow fadeInUp">Productos reforzados con tencología GPS, protegemos la seguridad de tus valores mediante geolocalizaciones siempre activadas</p>
+				<div class="col-6 parent">
+					<div class="gps align-flex center">
+						<p class="euro-font wow fadeInUp">LOCALIZACÍON <br> GPS</p>
+					</div>
+				</div>
+			</div>	
 		</section>
 
 			<div class="footer row">
@@ -239,7 +234,7 @@
 					<img src="images/logo.png">					
 				</div>
 				<div class="col-2 ">
-					<a href="home.html">Acerca de </a>
+					<a href="index.html">Acerca de </a>
 					<a href="products.html">Productos</a>
 					<a href="clientes.html">Clientes</a>
 					<a href="contacto.html">Contacto</a>
@@ -253,39 +248,6 @@
 				</div>				
 			</div>
 
-<script>
-new WOW().init();
-
-
-var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("circles");
-    if (n > x.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" active", "");
-    }
-    x[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-
-
-</script>
 
 <script>
 /* When the user clicks on the button, 
@@ -304,9 +266,21 @@ window.onclick = function(e) {
   }
 }
 </script>
+<script type="text/javascript">
+		$('button').on('click', function(){
+		  $('button').removeClass('selected');
+		  $(this).addClass('selected');
+		});
+		</script>
 	</body>
+	  <script>
+      $('.carousel').carousel({
+  interval: 2000,
+  pause: false
+})
+    </script>
 <script>
-	$("#aprende-mas").click(function() {
+	$(".aprende-mas").click(function() {
     $('html,body').animate({
         scrollTop: $(".top-body").offset().top},
         'slow');

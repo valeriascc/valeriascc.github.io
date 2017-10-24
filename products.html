@@ -2,19 +2,33 @@
 <html lang="es">
 	 <head>
 	  	<meta charset="UTF-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<title> Casegort </title>
+	    
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	  	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	    <script type="text/javascript" src="js/wow.js"></script>
-	    <link rel="stylesheet" href="styles/slider.css">
 	  	<script type="text/javascript" src="js/header.js"></script>
 	    <link rel="stylesheet" href="styles/header.css">
 	    <link rel="stylesheet" href="styles/animate.css">
 	    <link rel="stylesheet" href="styles/forms.css">
 	    <link rel="stylesheet" href="styles/products-style.css">
-	    <link rel="stylesheet" href="styles/footer.css">
-	    <link rel="stylesheet" href="styles/slider2.css">
+		<link rel="stylesheet" href="styles/slider-main2.css">
 	    <script type="text/javascript" src="js/buttons.js"></script>
+	    <link rel="stylesheet" href="styles/footer.css">
+
+
+		<style>
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+		  width: 100%;
+		  margin: auto;
+		}
+		</style>
+
 	    <style>
     /* Prevents slides from flashing */
     #slides {
@@ -27,127 +41,97 @@
 	</head>
 
 	<body>
-<section class="slideshow-container">
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators fadeInUp">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
 
-				<div class="aprende-btn fadeInUp">
-					<button id="aprende-mas" class="copy-btn"> Aprende más</button>		
-				</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-				<div class="movers fadeInUp">
-				  <span class="circle" onclick="currentDiv(1)"></span>
-				  <span class="circle" onclick="currentDiv(2)"></span>
-				  <span class="circle" onclick="currentDiv(3)"></span>
-				  <span class="circle" onclick="currentDiv(4)"></span>
-				  <span class="circle" onclick="currentDiv(5)"></span>
-				</div>
-	<!-- SLIDE 1 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-1"> <!-- text -->
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p class="text-center">PRODUCTOS 100% MEXICANOS</p>
-						</div>
+    <div class="slider-header fadeInUp">
+          <p>DESDE 1992</p>
+          <img src="images/logo.png">
+          <p class="text-center">PRODUCTOS 100% MEXICANOS</p>
+        </div>
 
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-1">
-								<p class="euro-font"> 25 AÑOS <span> DOMINANDO</span> LA CREACIÓN DE CAJAS DE <span>SEGURIDAD </span>MÓVIL
-								</p>							
-							</div>
+      <div class="item active">
+        <img src="images/slider-1.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> 25 AÑOS <span> DOMINANDO</span> LA CREACIÓN DE CAJAS DE <span>SEGURIDAD </span>MÓVIL
+                </p>
+            </div>
 
-							<div class="small-text fadeInUp">
-									<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>											
-								</div>
-							
+          <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-						</div>
-					</div>
-				</div>
+      <div class="item">
+        <img src="images/slider-2.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> FABRICADAS A PARTIR DE LA <span>MEJOR</span> TECNOLOGÍA, <span>INGENIEROS Y EXPERTOS </span>
+                </p>
+            </div>
 
-	<!-- SLIDE 2 -->
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
 
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-2">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/slider-3.png" >
+        <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> IDEALES PARA <span> TRANSPORTE
+                </span> TERRESTRE, MÁQUINAS VENDING Y PRODUCTOS <span> PERSONALIZADOS </span>
+                </p>
+            </div>
 
-						<div class="slider-text  align vertical">
-							<div class="big-text fadeInUp" id="big-text-2">
-								<p class="euro-font">FABRICADAS A PARTIR DE LA <span> MEJOR </span> TECNOLOGÍA, <span>INGENIEROS Y EXPERTOS <span></span> </p>
-							</div>	
-							<div class="small-text fadeInUp">
-								<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>			
-							</div>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-						</div>
-					</div>
-				</div>
+      <div class="item">
+      <img src="images/slider-4.png" >
+      <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> NUESTRA <span>EXPERIENCIA</span>Y TRAYECTORIA NOS HACE <span>EXPERTOS </span>
+                </p>
+            </div>
 
-	<!-- SLIDE 3 -->
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
 
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-3">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
+      <div class="item">
+      <img src="images/slider-5.png" >
+      <div class="carousel-caption">
+          <div class="big-text fadeInUp" id="big-text-1">
+                <p class="euro-font"> UNA VERDADERA <span> INVERSIÓN</span>PARA TU MAYOR SEGURIDAD, NO UN GASTO <span>INNECESARIO </span>
+                </p>
+            </div>
 
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-3">
-								<p class="euro-font"> IDEALES PARA <span> TRANSPORTE</span> TERRESTRE, MÁQUINAS VENDING Y PRODUCTOS <span>PERSONALIZADOS</span>	</p>
-							</div>	
-								<div class="small-text fadeInUp">
-									<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-								</div>
-						</div>
-					</div>
-				</div>
-
-	<!-- SLIDE 4 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-4">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
-
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-4">
-								<p class="euro-font"> NUESTRA <span>EXPERIENCIA</span>Y TRAYECTORIA NOS HACE <span>EXPERTOS</span>	</p>	
-							</div>
-							<div class="small-text fadeInUp">
-								<p> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-	<!-- SLIDE 5 -->
-				<div class="mySlides">
-					<div class="info-container fadeIn" id="image-5">
-						<div class="slider-header fadeInUp">
-							<p>DESDE 1992</p>
-							<img src="images/logo.png">
-							<p>PRODUCTOS 100% MEXICANOS</p>
-						</div>
-
-						<div class="slider-text align vertical">
-							<div class="big-text fadeInUp" id="big-text-5">
-								<p class="euro-font"> UNA VERDADERA <span>INVERSIÓN</span> PARA TU MAYOR SEGURIDAD,NO UN GASTO <span>INNECESARIO</span></p>
-							</div>	
-							<div class="small-text fadeInUp">
-								<p class="fadeInUp"> “NO HAY MEJOR RESGUARDO QUE EL DE CASEGORT PARA UNIDADES MÓVILES Y DE VENDING MACHINE” MANUEL IÑARRITÚ – CTO BIMBO</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-		</section>
+            <div class="aprende-btn fadeInUp">
+          <button class="copy-btn aprende-mas"> Aprende más</button></div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</div>
 		
 <!-- 	TOP BODY -->
 	<header class="body-header">			
@@ -179,224 +163,195 @@
 				<div class="top-text display-block text-center">
 					<div class="top-main-copy align vertical">
 						<p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> <br> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>					
-						<p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p>
-						<button onclick="medidaBtn()" class="body-btn" id="medida">A medida</button>
-						<button onclick="lineaBtn()" class="body-btn" id="linea">De linea</button>
+						<p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p> <br> <br>
+						<p class="underline">SELECCIONA <span class="underline"> UNA DE NUESTRAS </span> 2 OPCIONES </p>
+						<button onclick="linea()" class="body-btn target" id="linea">De linea</button>
+						<button onclick="medida()" class="body-btn target" id="medida">A medida</button>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section>
-			<div class="med-options">
-				<div>
+
+		<section class="linea-container">
+			<div style="padding: 0 8% 0 8%;" id="lineaContainer" hidden>
+				<p class="underline text-center guide">SELECCIONA LA SEGURIDAD <span class="underline"> QUE NECESITAS</span></p>
+
+		<!-- BOTONES DE LA SECCION DE LINEA -->
+				<div class="row linea-buttons align-flex vertical">
+					<div class="col-4 align-flex center">				
+						<button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
+					</div>
+					<div class="col-4 align-flex center">				
+						<button onclick="altaBtn()" class="reverse-btn">Alta Seguridad</button>
+					</div>
+					<div class="col-4 align-flex center">				
+						<button onclick="maximaBtn()" class="reverse-btn">Maxima Seguridad</button>
+					</div>
+				</div>
+
 				
 
-<!-- // MEDIDA CAPACIDADES// -->
-				<div class="med-capacidades row" id="med-capacidades">
-					<div class="col-3">
-						<p class="text-center euro-font">PRODUCTOS A <br> MEDIDA</p>		
-					</div>
-					<div class="col-3">
-						<button onclick="medianaBtn()" id="mediana"> Mediana Seguridad</button>		
-					</div>
-					<div class="col-3">
-						<button onclick="maximaBtn()"> Maxima Seguridad</button>	
-					</div>
-					<div class="col-3">
-						<button onclick="altaBtn()"> Alta Seguridad</button>			
-					</div>
-				</div>
 
-<!-- //CAPAC-INFO// -->
+		<!-- DESCRIPCIÓN DE MEDIANA SEDURIDAD -->
 
-				<div class="capac-info" id="med-capac-info">
-
-					<div  id="info-1" class="row hidden">
-						<div class="col-3">
-							<p class="text-center" style="font-size: 15px; float: right;">1: FLEX</p>		
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">IDEAL PARA:</p>
-							<p> Ideal para vehículos de carga, transportes privados y transportes en carretera</p>	
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">CAPACIDAD:</p>
-							<p> Caja de seguridad estándar para baja capacidad de valores</p>		
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">CARACTERÍSTICAS:</p>
-							<p> – Empotrable / Praesent commodo cursus magna,vel scelerisque nisl consectetur et/ Donec id elit non mi / Praesent commodo</p>			
-						</div>					
-
-					</div>
-					
-						<!-- SLIDER -->
-					<div id="slides">
-					    <img src="images/caja-1.jpg">
-					    <img src="images/caja-2.jpg">
-					    <img src="images/caja-3.jpg">
-					    <img src="images/caja-4.jpg">
-					    <img src="images/caja-5.jpg">
-					    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-					    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-					</div>					
-					<!-- END SLIDER -->
-
-				</div>
-
-
-<!-- 					info -->
-					<div class="capac-info">
-						<div class="row hidden" id="info-2">
-							<div class="col-3">
-								<p class="text-center" style="font-size: 15px; float: right;">2: FLEX</p>	
-							</div>
-							<div class="col-3">
-								<p class="euro-font underline">IDEAL PARA:</p>
-								<p> Ideal para vehículos de carga, transportes privados y transportes en carretera</p>	
-							</div>
-							<div class="col-3">
-								<p class="euro-font underline">CAPACIDAD:</p>
-								<p> Caja de seguridad estándar para baja capacidad de valores</p>		
-							</div>
-							<div class="col-3">
-								<p class="euro-font underline">CARACTERÍSTICAS:</p>
-								<p> – Empotrable / Praesent commodo cursus magna,vel scelerisque nisl consectetur et/ Donec id elit non mi / Praesent commodo</p>			
-							</div>
+			</div>
+				<div class="linea-description" id="med-description" hidden>
+					<div class="description-words">
+						<p class="euro-font text-center flex-title">FLEX</p>
 						
 					</div>
-
-						<div id="slides2">
-					    <img src="images/caja-1.jpg">
-					    <img src="images/caja-2.jpg">
-					    <img src="images/caja-3.jpg">
-					    <img src="images/caja-4.jpg">
-					    <img src="images/caja-5.jpg">
-					    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-					    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
+					<div class="row">
+						<div class="col-4">
+							<p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+							<p>Vehículos de reparto de zonas de bajo riesgo.</p>
 						</div>
 
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+							<p>Caja de seguridad para baja capacidad de depósito</p>
+						</div>
+
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+							<p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
+						</div>	
+						
 					</div>
+				</div>
 
-					<div class="capac-info">
-					<div class="row hidden" id="info-3">
-						<div class="col-3">
-							<p class="text-center" style="font-size: 15px; float: right;">3: FLEX</p>		
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">IDEAL PARA:</p>
-							<p> Ideal para vehículos de carga, transportes privados y transportes en carretera</p>	
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">CAPACIDAD:</p>
-							<p> Caja de seguridad estándar para baja capacidad de valores</p>		
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">CARACTERÍSTICAS:</p>
-							<p> – Empotrable / Praesent commodo cursus magna,vel scelerisque nisl consectetur et/ Donec id elit non mi / Praesent commodo</p>			
-						</div>
-					</div>
-
-					<div id="slides3">
-				    <img src="images/caja-1.jpg">
-					  <img src="images/caja-2.jpg">
-					 	<img src="images/caja-3.jpg">
-					  <img src="images/caja-4.jpg">
-					  <img src="images/caja-5.jpg">
+					<div id="slides" style="display: block;" hidden>
+				    <img src="images/nueva4.png">
+				    <img src="images/nueva5.png">
 				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
 				    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
 					</div>
+
+
+<!-- 					DESCRIPCION DE ALTA SEGURIDAD -->
+				<div class="linea-description" id="alta-description">
+					<div class="description-words">
+						<p class="euro-font text-center flex-title">HOT SEC</p>				
+					</div>
+					<div class="row">
+						<div class="col-4">
+							<p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+							<p>Vehículos de reparto de zonas de alto riesgo.</p>
+						</div>
+
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+							<p>Caja de seguridad para alta capacidad de depósito</p>
+						</div>
+
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+							<p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina </p>
+						</div>	
 						
 					</div>
-			</div>	
+				</div>
+			</div>
 
-			<div class="lin-options">
+					<div id="slides2" style="display: block;" hidden>
+				    <img src="images/nueva7.png">
+				    <img src="images/nueva6.png">
+				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
+				    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
+					</div>
 
-<!-- LINEA CAPACIDADES -->
+<!-- DESCRIPCION DE MAXIMA SEGUIRIDAD -->
+				<div class="linea-description" id="maxima-description">
 
-				<div class="lin-capacidades row hidden" id="lin-capacidades">
-					<div class="col-3">
-						<p class="text-center euro-font">PRODUCTOS DE <br> LÍNEA</p>		
+					<div class="description-words">
+						<p class="euro-font text-center flex-title super-title">SUPER SEC</p>
+						<p class="text-center producto-text">Producto flamable / Producto más vendido</p>		
 					</div>
-					<div class="col-3">
-						<button onclick="metodoBtn()"> Metodo</button>		
+
+					<div class="row">
+						<div class="col-4">
+							<p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+							<p>Vehículos de reparto de zonas de alto riesgo.</p>
+						</div>
+
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+							<p>Caja de seguridad para alta capacidad de depósito</p>
+						</div>
+
+						<div class="col-4">
+							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+							<p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina</p>
+						</div>	
+						
 					</div>
-					<div class="col-3">
-						<button onclick="casosBtn()"> Casos de éxito</button>
+				</div>
+			</div>
+
+					<div id="slides3" style="display: block;" hidden>
+				    <img src="images/nueva8.png">
+				    <img src="images/nueva9.png">
+				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
+				    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
 					</div>
-					<div class="offset-3"></div>					
+		</section>
+
+<!-- SECCION DE MEDIDA -->
+		<section class="medida-container">
+			<div style="padding: 0 8% 0 8%;" hidden id="medida-container">
+				<p class="euro-font text-center"> PRODUCTOS A MEDIDA</p>
+				<p class="underline text-center conoce-text" >CONOCE NUESTRO <span class="underline">ENFOQUE ACORDE TUS NECESIDADES</span></p>
+
+				<div class="row medida-buttons align-flex vertical">
+					<div class="col-8 align-flex center">				
+						<button onclick="metodoBtn()" id="metodoBtn" class="reverse-btn">MÉTODO</button>
+					</div>
+					<div class="col-8 align-flex center">				
+						<button onclick="casosBtn()" class="reverse-btn">CASOS DE ÉXITO</button>
+					</div>
+				</div>
+			</div>
+
+
+<!-- DESCRIPCION DE MEDIDA > METODO -->
+			<div class="row metodo-descripcion" id="metodo-descripcion">
+					<div class="col-4">
+						<p class="euro-font"> <span class="underline">EVALUACIÓN:</span> </p>
+						<p>Para poder ofrecer el nivel de seguridad que buscas, primero hacemos conocimiento de uso, después pasamos a ver las necesidades (Capacidad de depósito) y por último vemos la región de la ruta (rural, ciudad, etc)</p>
+					</div>
+
+					<div class="col-4">
+						<p class="euro-font"><span class="underline">DIAGNÓSTICO</span></p>
+						<p>Nuestra amplia experiencia  nos permite determinar y proponer el mejor producto de acuerdo a sus necesidades </p>
+					</div>
+
+					<div class="col-4">
+						<p class="euro-font"><span class="underline">INVERSIÓN</span></p>
+						<p>Una vez teniendo los paso anteriores presentamos su cotización .</p>
+					</div>	
+				</div>
+				<div>
+					<img src="images/nueva1.png" id="metodo-imagen" hidden>
+				</div>
+		</section>
+
+<!-- 	SECCION DE CASOS DE ÉXITO	 -->		
+				<div class="casos-seccion" id="casos-seccion">
+					<div class="seccion-text">
+						<p class="euro-font text-center">CONTÁCTANOS PARA <span> <br>MÁS INFORMACIÓN</span></p>					
+					</div>
 				</div>
 
-				</div>
-
-				<div class="capac-info">
-					<div class="row hidden" id="info-4">
-						<div class="col-3"></div>
-						<div class="col-3">
-							<p class="euro-font underline">EVALUACIÓN</p>
-							<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>	
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">DIAGNÓSTICO</p>
-							<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>		
-						</div>
-						<div class="col-3">
-							<p class="euro-font underline">INVERSIÓN</p>
-							<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>			
-						</div>
-					</div>
-						<div id="slides4">
-					    <img src="images/caja-1.jpg">
-					    <img src="images/caja-2.jpg">
-					    <img src="images/caja-3.jpg">
-					    <img src="images/caja-4.jpg">
-					    <img src="images/caja-5.jpg">
-					    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-					    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-						</div>
 
 
-					
-				</div>
 
-					<div class="capac-info">
-						<div class="row hidden" id="info-5">
-							<div class="col-3"></div>
-							<div class="col-3">
-								<p class="euro-font underline">2. EVALUACIÓN</p>
-								<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>	
-							</div>
-							<div class="col-3">
-								<p class="euro-font underline">2. DIAGNÓSTICO</p>
-								<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>		
-							</div>
-							<div class="col-3">
-								<p class="euro-font underline">2. INVERSIÓN</p>
-								<p> Diseño de cajas de seguridad según necesidades, nivel de blindaje y costo.</p>			
-							</div>
-						</div>
-
-						<div id="slides5">
-					    <img src="images/caja-1.jpg">
-					    <img src="images/caja-2.jpg">
-					    <img src="images/caja-3.jpg">
-					    <img src="images/caja-4.jpg">
-					    <img src="images/caja-5.jpg">
-					    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-					    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-						</div>
-					</div>
-				
-			</div>				
-
-			</section>
+<!-- FOOTER -->
 			<div class="footer row">
 				<div class="col-6 ">
 					<img src="images/logo.png">					
 				</div>
 				<div class="col-2 ">
-					<a href="home.html">Acerca de </a>
+					<a href="index.html">Acerca de </a>
 					<a href="products.html">Productos</a>
 					<a href="clientes.html">Clientes</a>
 					<a href="contacto.html">Contacto</a>
@@ -409,37 +364,6 @@
 					<button class="display-block" id="volver-in">Volver a incio</button>
 				</div>				
 			</div>
-
-<script>
-new WOW().init();
-var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("circles");
-    if (n > x.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" active", "");
-    }
-    x[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-
-</script>
 
   <script>
     $(function(){
@@ -491,11 +415,24 @@ window.onclick = function(e) {
   }
 }
 </script>
+		<script type="text/javascript">
+		$('button').on('click', function(){
+		  $('button').removeClass('selected');
+		  $(this).addClass('selected');
+		});
+		</script>
 	</body>
+	<script>
+      $('.carousel').carousel({
+  interval: 2000,
+  pause: false
+})
+    </script>
 
 
 	<script>
-	$("#aprende-mas").click(function() {
+
+	$(".aprende-mas").click(function() {
     $('html,body').animate({
         scrollTop: $(".top-body").offset().top},
         'slow');

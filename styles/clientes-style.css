@@ -12,6 +12,10 @@
 	background-color: rgba(0, 0, 0, .4);
 }
 
+.top-main-copy {
+	padding: 0 25% 0 25%;
+}
+
 .top-main-copy .euro-font {
 	letter-spacing: 1.17px;
 	margin-bottom: 30px;
@@ -52,6 +56,8 @@
 
 .clientes-btn {
 	margin-top: 30px;
+	border-color: #fdd916;
+	color: #fdd916;
 }
 
 .logos-container .col-4 #logo-1 {

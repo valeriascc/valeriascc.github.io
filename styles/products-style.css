@@ -17,12 +17,14 @@
 	margin-bottom: 30px;
 }
 
+/*DETAILS*/
+
 
 .body-btn {
 	margin: 30px 13px 0 13px; 
 	background-color: #000;
 	color: #fdd916;
-	border: 1px solid #fdd916;
+	border: 1px solid #000;
 }
 
 .med-options {
@@ -72,6 +74,137 @@
 	margin-bottom: 15px;
 }
 
+/*NEW DETAILS*/
+
+/*DESCRIPCION DE LA SECCION DE LINEA*/
+
+.linea-container {
+  height: 100%;
+  width: 100vw;
+  background-color: #101010;
+}
+
+
+.linea-container .guide {
+  padding-top: 40px;
+}
+
+.linea-container .euro-font {
+  font-size: 22px;
+}
+
+.linea-buttons {
+  height: 120px;
+}
+
+.linea-description .euro-font, 
+.linea-description .eurofont p, 
+.linea-description  span{
+  font-size: 10px;
+}
+
+.linea-description .col-4 {
+  padding: 0 3% 0 3%;
+}
+
+.linea-description .col-4 p {
+  padding-top: 10px;
+}
+
+.linea-description .row {
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.linea-description .description-words {
+  height: 130px;
+}
+
+/*DESCRIPCION DE LA SECCIOND DE MEDIDA*/
+
+.medida-container {
+  background-color: #101010;
+  height: 100%;
+  width: 100vw;
+}
+
+.medida-buttons {
+  height: 120px;
+  margin: 0 15% 0 15%;
+}
+
+
+#metodoBtn {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.medida-container div .euro-font {
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+.linea-description .flex-title {
+  padding: 40px 0 40px 0;
+  font-size: 20px;
+}
+
+.linea-description .super-title {
+  padding-bottom: 5px;
+}
+
+.linea-description .producto-text {
+  margin-bottom: 40px;
+}
+
+
+.medida-container .conoce-text {
+  font-size: 10px;
+}
+
+.metodo-descripcion {
+  padding: 0 10% 0 10%;
+}
+
+.metodo-descripcion .col-4{
+  padding: 0 10px 50px 10px;
+}
+
+.metodo-descripcion {
+  display: none;
+}
+
+.linea-description {
+  display: none;
+}
+
+.casos-seccion {
+  display: none;
+}
+
+.casos-seccion {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/nueva2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.casos-seccion .euro-font {
+  font-size: 18px;
+}
+
+.seccion-text {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 /*///SLIDER///*/
 
 .fadeInUp {
@@ -82,11 +215,9 @@
 
     #slides,
     #slides2,
-    #slides3,
-    #slides4,
-    #slides5 {
+    #slides3{
       display: none;
-      margin-bottom:50px;
+      background-color: #101010;
     }
 
     #slides a:nth-child(4),
@@ -94,12 +225,8 @@
     #slides2 a:nth-child(4),
     #slides2 a:nth-child(5),
     #slides3 a:nth-child(4),
-    #slides3 a:nth-child(5),
-    #slides4 a:nth-child(4),
-    #slides4 a:nth-child(5),
-    #slides5 a:nth-child(4),
-    #slides5 a:nth-child(5) {
-    	display: none;
+    #slides3 a:nth-child(5) {
+      display: none;
     }
 
     .slidesjs-navigation {
@@ -119,9 +246,13 @@
     }
 
     .slidesjs-pagination {
-      margin: 6px 0 0;
+      margin: -100px 0 0 0;
+      width: 100vw;
       list-style: none;
+      position: absolute;
+      z-index: 10;
       display: flex;
+      align-items: center;
       justify-content: center;
     }
 
@@ -151,16 +282,27 @@
     }
 
     .slidesjs-navigation {
-    	position: relative;
-    	margin-top: -30%;
-    	z-index: 21;
+      position: relative;
+      margin-top: -30%;
+      z-index: 21;
     }
 
      .slidesjs-navigation a {
-     	margin-right: 30px;
+      margin-right: 30px;
      }
+.active, 
+.circle:hover {
+  background-color: #ffd916;
+}
 
-
+.movers {
+  width: 100vw;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  top: 65%;
+}
 
 
 
