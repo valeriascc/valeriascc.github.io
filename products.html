@@ -4,7 +4,7 @@
 	  	<meta charset="UTF-8">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<title> Casegort </title>
-	    
+
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	  	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -34,10 +34,12 @@
     #slides {
       display:none;
     }
-  </style>
-  <style>
 
+    .clearfix {
+      clear: both;
+    }
   </style>
+
 	</head>
 
 	<body>
@@ -88,7 +90,7 @@
 
         </div>
       </div>
-    
+
       <div class="item">
         <img src="images/slider-3.png" >
         <div class="carousel-caption">
@@ -128,13 +130,13 @@
           <button class="copy-btn aprende-mas"> Aprende más</button></div>
         </div>
       </div>
-  
+
     </div>
   </div>
 </div>
-		
+
 <!-- 	TOP BODY -->
-	<header class="body-header">			
+	<header class="body-header">
 					<nav>
 						<ul class="normal-menu">
 							<li id="li-img"></li>
@@ -142,7 +144,7 @@
 								<li> <a href="index.html">ACERCA</a></li>
 								<li> <a href="products.html">PRODUCTOS</a></li>
 								<li> <a href="clientes.html">CLIENTES</a></li>
-								<li> <a href="contacto.html">CONTACTO</a></li>						
+								<li> <a href="contacto.html">CONTACTO</a></li>
 							</div>
 						<div class="dropdown" id="dropdown">
 						    <button onclick="myFunction()"> <img src="images/menu.png" class="dropbtn"> </button>
@@ -162,7 +164,7 @@
 			<div class="top-background">
 				<div class="top-text display-block text-center">
 					<div class="top-main-copy align vertical">
-						<p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> <br> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>					
+						<p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> <br> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>
 						<p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p> <br> <br>
 						<p class="underline">SELECCIONA <span class="underline"> UNA DE NUESTRAS </span> 2 OPCIONES </p>
 						<button onclick="linea()" class="body-btn target" id="linea">De linea</button>
@@ -179,18 +181,18 @@
 
 		<!-- BOTONES DE LA SECCION DE LINEA -->
 				<div class="row linea-buttons align-flex vertical">
-					<div class="col-4 align-flex center">				
+					<div class="col-4 align-flex center">
 						<button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
 					</div>
-					<div class="col-4 align-flex center">				
+					<div class="col-4 align-flex center">
 						<button onclick="altaBtn()" class="reverse-btn">Alta Seguridad</button>
 					</div>
-					<div class="col-4 align-flex center">				
+					<div class="col-4 align-flex center">
 						<button onclick="maximaBtn()" class="reverse-btn">Maxima Seguridad</button>
 					</div>
 				</div>
 
-				
+
 
 
 		<!-- DESCRIPCIÓN DE MEDIANA SEDURIDAD -->
@@ -199,7 +201,7 @@
 				<div class="linea-description" id="med-description" hidden>
 					<div class="description-words">
 						<p class="euro-font text-center flex-title">FLEX</p>
-						
+
 					</div>
 					<div class="row">
 						<div class="col-4">
@@ -215,12 +217,12 @@
 						<div class="col-4">
 							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
 							<p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
-						</div>	
-						
+						</div>
+
 					</div>
 				</div>
 
-					<div id="slides" style="display: block;" hidden>
+					<div class="clearfix" id="slides" style="display: block;" hidden>
 				    <img src="images/nueva4.png">
 				    <img src="images/nueva5.png">
 				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
@@ -231,7 +233,7 @@
 <!-- 					DESCRIPCION DE ALTA SEGURIDAD -->
 				<div class="linea-description" id="alta-description">
 					<div class="description-words">
-						<p class="euro-font text-center flex-title">HOT SEC</p>				
+						<p class="euro-font text-center flex-title">HOT SEC</p>
 					</div>
 					<div class="row">
 						<div class="col-4">
@@ -247,13 +249,13 @@
 						<div class="col-4">
 							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
 							<p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina </p>
-						</div>	
-						
+						</div>
+
 					</div>
 				</div>
 			</div>
 
-					<div id="slides2" style="display: block;" hidden>
+					<div class="clearfix" id="slides2" style="display: block;" hidden>
 				    <img src="images/nueva7.png">
 				    <img src="images/nueva6.png">
 				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
@@ -265,7 +267,7 @@
 
 					<div class="description-words">
 						<p class="euro-font text-center flex-title super-title">SUPER SEC</p>
-						<p class="text-center producto-text">Producto flamable / Producto más vendido</p>		
+						<p class="text-center producto-text">Producto flamable / Producto más vendido</p>
 					</div>
 
 					<div class="row">
@@ -282,13 +284,13 @@
 						<div class="col-4">
 							<p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
 							<p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina</p>
-						</div>	
-						
+						</div>
+
 					</div>
 				</div>
 			</div>
 
-					<div id="slides3" style="display: block;" hidden>
+					<div class="clearfix" id="slides3" style="display: block;" hidden>
 				    <img src="images/nueva8.png">
 				    <img src="images/nueva9.png">
 				    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
@@ -303,10 +305,10 @@
 				<p class="underline text-center conoce-text" >CONOCE NUESTRO <span class="underline">ENFOQUE ACORDE TUS NECESIDADES</span></p>
 
 				<div class="row medida-buttons align-flex vertical">
-					<div class="col-8 align-flex center">				
+					<div class="col-8 align-flex center">
 						<button onclick="metodoBtn()" id="metodoBtn" class="reverse-btn">MÉTODO</button>
 					</div>
-					<div class="col-8 align-flex center">				
+					<div class="col-8 align-flex center">
 						<button onclick="casosBtn()" class="reverse-btn">CASOS DE ÉXITO</button>
 					</div>
 				</div>
@@ -328,17 +330,17 @@
 					<div class="col-4">
 						<p class="euro-font"><span class="underline">INVERSIÓN</span></p>
 						<p>Una vez teniendo los paso anteriores presentamos su cotización .</p>
-					</div>	
+					</div>
 				</div>
 				<div>
 					<img src="images/nueva1.png" id="metodo-imagen" hidden>
 				</div>
 		</section>
 
-<!-- 	SECCION DE CASOS DE ÉXITO	 -->		
+<!-- 	SECCION DE CASOS DE ÉXITO	 -->
 				<div class="casos-seccion" id="casos-seccion">
 					<div class="seccion-text">
-						<p class="euro-font text-center">CONTÁCTANOS PARA <span> <br>MÁS INFORMACIÓN</span></p>					
+						<p class="euro-font text-center">CONTÁCTANOS PARA <span> <br>MÁS INFORMACIÓN</span></p>
 					</div>
 				</div>
 
@@ -348,7 +350,7 @@
 <!-- FOOTER -->
 			<div class="footer row">
 				<div class="col-6 ">
-					<img src="images/logo.png">					
+					<img src="images/logo.png">
 				</div>
 				<div class="col-2 ">
 					<a href="index.html">Acerca de </a>
@@ -362,7 +364,7 @@
 					<img src="images/insta.png">
 					<img src="images/face.png">
 					<button class="display-block" id="volver-in">Volver a incio</button>
-				</div>				
+				</div>
 			</div>
 
   <script>
@@ -399,7 +401,7 @@
   </script>
   <script src="js/jquery.slides.min.js"></script>
   <script>
-/* When the user clicks on the button, 
+/* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -445,7 +447,7 @@ window.onclick = function(e) {
 });
 
 	function myFunction() {
-    var x = document.getElementsByClassName("slidesjs-previous")[0].getAttribute("title"); 
+    var x = document.getElementsByClassName("slidesjs-previous")[0].getAttribute("title");
     document.getElementsByClassName('slidesjs-previous').style.display = 'none';
 }
 </script>
