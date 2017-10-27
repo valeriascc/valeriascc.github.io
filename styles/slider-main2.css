@@ -78,12 +78,6 @@ section {
 	height: 100%;
 }
 
-#big-text-1 {
-	width: 60%;
-	display: flex;
-	align-items: center;
-}
-
 #big-text-2 {
 	width: 60%;
 	display: flex;
@@ -148,6 +142,7 @@ section {
 
 .carousel-indicators {
 	animation-delay: 900ms;
+	bottom: 30%;
 }
 
 
@@ -193,13 +188,17 @@ section {
 }
 
 .carousel-caption .euro-font {
-	font-size: 3rem;
+	font-size: 170%;
 }
 
 #big-text-1 {
 	width: 100%;
 	display: flex;
 	align-items: center;
+}
+
+.carousel-inner .item {
+	height: 93vh;
 }
 
 
@@ -209,10 +208,9 @@ section {
 @media screen and (max-width: 780px) {
 
 
-    .carousel-caption .euro-font{
+/*    .carousel-caption .euro-font{
     	font-size: 5px;
-    	color: red;
-    }
+    }*/
 
     .slider-header p {
     	display: none;
@@ -228,19 +226,12 @@ section {
 @media screen  
 and (max-width: 1024px){
 
-
-
     .big-text {
     	width: 70%;
     }
 
     .copy-btn {
     	margin-top: 10px;
-    }
-
-    .carousel-caption .euro-font{
-    	font-size: 30px;
-    	color: orange;
     }
 
 }
@@ -253,18 +244,14 @@ and (max-width: 1024px){
     	width: 60%;
     }
 
-    .carousel-caption .euro-font{
-    	font-size: 25px;
-    	color: green;
-    }
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1042px) {
 
-	.carousel-indicators {
-		bottom: 25%;
-	}
+	.carousel-caption .euro-font {
+		font-size: 250%;
+	}	
 
 }
 
