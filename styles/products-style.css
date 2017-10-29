@@ -1,5 +1,5 @@
 .top-background {
-	background-image: url(../images/18.png);
+	background-image: url(../images/18.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -21,7 +21,7 @@
 
 
 .body-btn {
-	margin: 30px 13px 0 13px; 
+	margin: 15px 13px 0 13px; 
 	background-color: #000;
 	color: #fdd916;
 	border: 1px solid #000;
@@ -95,6 +95,7 @@
 
 .linea-buttons {
   height: 120px;
+  margin: 0 auto;
 }
 
 .linea-description .euro-font, 
@@ -304,5 +305,51 @@
   top: 65%;
 }
 
+.desc-responsive {
+  display: flex;
+  align-items: center;
+}
+
+.desc-respondive .col-4 p {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 780px) {
+
+
+    .top-text {
+      padding: 0 10%;
+    }
+
+    .top-text .euro-font {
+      font-size: 12px;
+    }
+
+    .top-text .top-main-copy p:nth-child(2) {
+      font-size: 10px;
+    }
+
+    .body-btn {
+      background-color: inherit;
+      color: #fdd916;
+      border: 1px solid #fdd916;
+    }
+
+    .reverse-btn {
+      margin: 18px 0px
+    }
+
+    .linea-container div{
+      height: 100%;
+      width: 100vw;
+      margin: 0 auto;
+      background-color: #101010;
+    }
+
+    .linea-container .guide {
+      font-size: 10px;
+    }
+
+}
 
 

@@ -45,23 +45,24 @@
 	line-height: 30px;
 }
 
-@media screen and (max-width: 768px) {
-	.footer .col-2,
-	.footer .col-4 {
-	margin: 0 auto;
-	text-align: center;
-	}
-
-	.footer .col-4 button {
-		margin: auto;
-	}
-
-	.footer .col-6 img{
-		margin-left: 0;
-	}
-
-	.footer .col-6{
-		display: flex;
-		justify-content: center;
-	}
+.footer-responsive {
+	margin-left: 50px;
+	padding: 17px 0 17px 0;
 }
+
+.footer-responsive p, 
+.footer-responsive a {
+	font-size: 6px;
+	line-height: 14px;
+}
+
+.footer-responsive img {
+	height: 7px;
+	width: 60px;
+	margin-bottom: 7px
+}
+
+.footer-responsive div p, a {
+	display: inline-block;
+}
+

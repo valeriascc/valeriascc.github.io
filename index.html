@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Casegort </title>
+      
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       <script type="text/javascript" src="js/wow.js"></script>
       <script type="text/javascript" src="js/header.js"></script>
@@ -345,24 +346,50 @@
 
 </section>
 
-      <div class="footer row">
-        <div class="col-6 ">
-          <img src="images/logo.png">
-        </div>
-        <div class="col-2 ">
-          <a href="index.html">Acerca de </a>
-          <a href="products.html">Productos</a>
-          <a href="clientes.html">Clientes</a>
-          <a href="contacto.html">Contacto</a>
-        </div>
-        <div class="col-4 ">
-          <p>Social Media</p>
-          <img src="images/in.png">
-          <img src="images/insta.png">
-          <img src="images/face.png">
-          <button class="display-block" id="volver-in">Volver a incio</button>
-        </div>
+  <div class="footer">
+    <div class="row visible-lg visible-md">
+      <div class="col-6 ">
+        <img src="images/logo.png">
       </div>
+      <div class="col-2 ">
+        <a href="index.html">Acerca de </a>
+        <a href="products.html">Productos</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="col-4 ">
+        <p>Social Media</p>
+        <img src="images/in.png">
+        <img src="images/insta.png">
+        <img src="images/face.png">
+        <button class="display-block" id="volver-in">Volver a incio</button>
+      </div>      
+    </div>
+
+    <div class="footer-responsive visible-xs visible-sm">
+      <img src="images/logo.png">
+      <div>
+        <p>Social Media</p>       
+      </div>
+
+      <div>
+        <p>Facebook |</p>
+        <p>Instagram |</p>
+        <p>Linkedin |</p>      
+      </div>
+
+      <div>
+        <p>Copyright 2017 CASEGORT. Todos los derechos reservados</p>        
+      </div>
+
+      <div>
+        <p>Politica de privacidad |</p>
+        <a href="products.html#products">Productos |</a>
+        <a href="clientes.html#clientes">Clientes |</a>
+        <a href="contacto.html#contacto">Contacto |</a>    
+      </div>
+    </div>
+  </div>
 
 <script>
     $('button').on('click', function(){
@@ -379,7 +406,7 @@
   </script>
     <script>
       $('.carousel').carousel({
-  interval: 100000,
+  interval: 4000,
   pause: false
 })
     </script>
