@@ -13,9 +13,10 @@ function linea() {
 function medianaBtn() {
 	document.getElementById('lineaContainer').style.display = "block";
 	document.getElementById('slides').style.display = "block";
+	document.getElementById('med-description').style.display = "block";
+	document.getElementById('med-description-resp').style.display = "block";
 	document.getElementById('alta-description').style.display = "none";
 	document.getElementById('slides2').style.display = "none";
-	document.getElementById('med-description').style.display = "block";
 	document.getElementById('maxima-description').style.display = "none";
 	document.getElementById('slides3').style.display = "none";
 }

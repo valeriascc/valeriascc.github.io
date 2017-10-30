@@ -196,19 +196,19 @@
   
 </div>
 
-    <section class="top-body" id="products">
-      <div class="top-background">
-        <div class="top-text display-block text-center">
-          <div class="top-main-copy align vertical">
-            <p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>
-            <p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p> <br> <br>
-            <p class="underline visible-lg visible-md">SELECCIONA <span class="underline"> UNA DE NUESTRAS </span> 2 OPCIONES </p>
-            <button onclick="linea()" class="body-btn target" id="linea">De linea</button>
-            <button onclick="medida()" class="body-btn target" id="medida">A medida</button>
-          </div>
-        </div>
+<section class="top-body" id="products">
+  <div class="top-background">
+    <div class="top-text display-block text-center">
+      <div class="top-main-copy align vertical">
+        <p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>
+        <p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p> <br> <br>
+        <p class="underline visible-lg visible-md">SELECCIONA <span class="underline"> UNA DE NUESTRAS </span> 2 OPCIONES </p>
+        <button onclick="linea()" class="body-btn target" id="linea">De linea</button>
+        <button onclick="medida()" class="body-btn target" id="medida">A medida</button>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
 
     <section class="linea-container">
@@ -217,6 +217,7 @@
 
     <!-- BOTONES DE LA SECCION DE LINEA -->
         <div class="row visible-xs-block visible-sm-block visible-lg-block visible-md-block linea-buttons">
+
           <div class="col-4 align-flex center">
             <button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
           </div>
@@ -258,15 +259,18 @@
           </div>
         </div>
 
-          <div class="clearfix" id="slides" style="display: block;" hidden>
+          <div class="clearfix" style="display: block;" id="slides" hidden>
             <img src="images/nueva4.jpg">
             <img src="images/nueva5.jpg">
-            <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-            <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-
+            <a href="#" class="slidesjs-previous slidesjs-navigation visible-lg visible-md">
+              <img src="images/arrow-left.png" style="height: 33px; width: 33px;"">
+            </a>
+            <a href="#" class="slidesjs-next slidesjs-navigation visible-lg visible-md">
+              <img src="images/arrow-right.png" style="height: 33px; width: 33px;">
+            </a>         
           </div>
-
-          <div class="row visible-xs visible-sm desc-responsive">
+          
+          <div class="row visible-xs visible-sm desc-responsive" id="med-description-resp">
             <div class="col-4 text-center">
               <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
               <p>Vehículos de reparto de zonas de bajo riesgo.</p>
@@ -281,8 +285,9 @@
               <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
               <p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
             </div>
-
           </div>
+
+
            
 
 

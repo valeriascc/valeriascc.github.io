@@ -15,6 +15,7 @@
 .top-main-copy .euro-font {
 	letter-spacing: 1.17px;
 	margin-bottom: 30px;
+  padding: 0 15%;
 }
 
 /*DETAILS*/
@@ -87,6 +88,7 @@
 
 .linea-container .guide {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .linea-container .euro-font {
@@ -306,13 +308,15 @@
 }
 
 .desc-responsive {
-  display: flex;
-  align-items: center;
+  height: 100vh;
 }
 
-.desc-respondive .col-4 p {
+.desc-responsive .euro-font,
+.desc-responsive .col-4 p {
   font-size: 10px;
 }
+
+
 
 @media screen and (max-width: 780px) {
 
@@ -348,6 +352,10 @@
 
     .linea-container .guide {
       font-size: 10px;
+    }
+
+    .slidesjs-navigation {
+      display: none;
     }
 
 }
