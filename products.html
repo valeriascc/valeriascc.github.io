@@ -211,159 +211,199 @@
 </section>
 
 
-    <section class="linea-container">
-      <div style="padding: 0 8% 0 8%;" id="lineaContainer" hidden>
-        <p class="underline text-center guide">SELECCIONA LA SEGURIDAD <span class="underline"> QUE NECESITAS</span></p>
+<section class="linea-container">
 
-    <!-- BOTONES DE LA SECCION DE LINEA -->
-        <div class="row visible-xs-block visible-sm-block visible-lg-block visible-md-block linea-buttons">
+<div id="lineaContainer" hidden>
 
-          <div class="col-4 align-flex center">
-            <button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
-          </div>
-          <div class="col-4 align-flex center">
-            <button onclick="altaBtn()" class="reverse-btn">Alta Seguridad</button>
-          </div>
-          <div class="col-4 align-flex center">
-            <button onclick="maximaBtn()" class="reverse-btn">Maxima Seguridad</button>
-          </div>
-        </div>
+  <p class="underline text-center guide">SELECCIONA LA SEGURIDAD <span class="underline"> QUE NECESITAS</span></p>
+
+<!-- BOTONES DE LA SECCION DE LINEA -->
+  <div class="row visible-xs-block visible-sm-block visible-lg-block visible-md-block linea-buttons">
+
+    <div class="col-4 align-flex center">
+      <button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
+    </div>
+    <div class="col-4 align-flex center">
+      <button onclick="altaBtn()" class="reverse-btn">Alta Seguridad</button>
+    </div>
+    <div class="col-4 align-flex center">
+      <button onclick="maximaBtn()" class="reverse-btn">Maxima Seguridad</button>
+    </div>
+
+  </div>
+</div>
 
 
+<!-- DESCRIPCIÓN DE MEDIANA SEDURIDAD -->
 
+  <div class="linea-description" id="med-description" hidden>
+  <div class="description-words">
+    <p class="euro-font text-center flex-title">FLEX</p>
 
-    <!-- DESCRIPCIÓN DE MEDIANA SEDURIDAD -->
+  </div>
 
+    <div class="row visible-lg visible-md">
+      <div class="col-4">
+        <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+        <p>Vehículos de reparto de zonas de bajo riesgo.</p>
       </div>
-        <div class="linea-description" id="med-description" hidden>
-          <div class="description-words">
-            <p class="euro-font text-center flex-title">FLEX</p>
 
-          </div>
-          <div class="row visible-lg visible-md">
-            <div class="col-4">
-              <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
-              <p>Vehículos de reparto de zonas de bajo riesgo.</p>
-            </div>
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+        <p>Caja de seguridad para baja capacidad de depósito</p>
+      </div>
 
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
-              <p>Caja de seguridad para baja capacidad de depósito</p>
-            </div>
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+        <p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
+      </div>
 
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
-              <p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
-            </div>
+    </div>
+  </div>
 
-          </div>
-        </div>
+  <div class="clearfix" style="display: block;" id="slides" hidden>
 
-          <div class="clearfix" style="display: block;" id="slides" hidden>
-            <img src="images/nueva4.jpg">
-            <img src="images/nueva5.jpg">
-            <a href="#" class="slidesjs-previous slidesjs-navigation visible-lg visible-md">
-              <img src="images/arrow-left.png" style="height: 33px; width: 33px;"">
-            </a>
-            <a href="#" class="slidesjs-next slidesjs-navigation visible-lg visible-md">
-              <img src="images/arrow-right.png" style="height: 33px; width: 33px;">
-            </a>         
-          </div>
+    <img src="images/nueva4.jpg">
+    <img src="images/nueva5.jpg">
+
+    <a href="#" class="slidesjs-previous slidesjs-navigation visible-lg visible-md">
+      <img src="images/arrow-left.png" style="height: 33px; width: 33px;"">
+    </a>
+    <a href="#" class="slidesjs-next slidesjs-navigation visible-lg visible-md">
+      <img src="images/arrow-right.png" style="height: 33px; width: 33px;">
+    </a>         
+  </div>
           
-          <div class="row visible-xs visible-sm desc-responsive" id="med-description-resp">
-            <div class="col-4 text-center">
-              <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
-              <p>Vehículos de reparto de zonas de bajo riesgo.</p>
-            </div>
+<!-- descripcion de la seccion de mediana seguridad para responsive -->
+  <div class="row hidden-lg hidden-md desc-responsive" id="med-description-resp">
+    <div class="col-4 text-center">
+      <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+      <p>Vehículos de reparto de zonas de bajo riesgo.</p>
+    </div>
 
-            <div class="col-4 text-center">
-              <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
-              <p>Caja de seguridad para baja capacidad de depósito</p>
-            </div>
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+      <p>Caja de seguridad para baja capacidad de depósito</p>
+    </div>
 
-            <div class="col-4 text-center">
-              <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
-              <p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
-            </div>
-          </div>
-
-
-           
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+      <p>– Caja de seguridad con instalación al interior de la cabina (Recomendable)</p>
+    </div>
+  </div>
 
 
 <!--          DESCRIPCION DE ALTA SEGURIDAD -->
-        <div class="linea-description" id="alta-description">
-          <div class="description-words">
-            <p class="euro-font text-center flex-title">HOT SEC</p>
-          </div>
-          <div class="row">
-            <div class="col-4">
-              <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
-              <p>Vehículos de reparto de zonas de alto riesgo.</p>
-            </div>
+  <div class="linea-description" id="alta-description">
 
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
-              <p>Caja de seguridad para alta capacidad de depósito</p>
-            </div>
+    <div class="description-words">
+      <p class="euro-font text-center flex-title">HOT SEC</p>
+    </div>
 
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
-              <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina </p>
-            </div>
-
-          </div>
-        </div>
+    <div class="row visible-lg visible-md">
+      <div class="col-4">
+        <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+        <p>Vehículos de reparto de zonas de alto riesgo.</p>
       </div>
 
-          <div class="clearfix" id="slides2" style="display: block;" hidden>
-            <img src="images/nueva7.png">
-            <img src="images/nueva6.png">
-            <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-            <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-          </div>
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+        <p>Caja de seguridad para alta capacidad de depósito</p>
+      </div>
+
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+        <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina </p>
+      </div>
+    </div>
+  </div>
+
+<div class="clearfix" id="slides2" style="display: block;" hidden>
+  <img src="images/nueva7.jpg">
+  <img src="images/nueva6.jpg">
+  <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
+  <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
+</div>
+
+<!-- Descripcion de alta seguridad para responsive -->
+
+  <div class="row hidden-lg hidden-md desc-responsive" id="alta-description-resp">
+    <div class="col-4 text-center">
+      <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+      <p>Vehículos de reparto de zonas de alto riesgo.</p>
+    </div>
+
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+      <p>Caja de seguridad para alta capacidad de depósito</p>
+    </div>
+
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+      <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina </p>
+    </div>
+  </div>
 
 <!-- DESCRIPCION DE MAXIMA SEGUIRIDAD -->
-        <div class="linea-description" id="maxima-description">
+  <div class="linea-description" id="maxima-description">
 
-          <div class="description-words">
-            <p class="euro-font text-center flex-title super-title">SUPER SEC</p>
-            <p class="text-center producto-text">Producto flamable / Producto más vendido</p>
-          </div>
+    <div class="description-words">
+      <p class="euro-font text-center flex-title super-title">SUPER SEC</p>
+      <p class="text-center producto-text">Producto flamable / Producto más vendido</p>
+    </div>
 
-          <div class="row">
-            <div class="col-4">
-              <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
-              <p>Vehículos de reparto de zonas de alto riesgo.</p>
-            </div>
-
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
-              <p>Caja de seguridad para alta capacidad de depósito</p>
-            </div>
-
-            <div class="col-4">
-              <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
-              <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina</p>
-            </div>
-
-          </div>
-        </div>
+    <div class="row visible-lg visible-md">
+      <div class="col-4">
+        <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+        <p>Vehículos de reparto de zonas de alto riesgo.</p>
       </div>
 
-          <div class="clearfix" id="slides3" style="display: block;" hidden>
-            <img src="images/nueva8.png">
-            <img src="images/nueva9.png">
-            <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
-            <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
-          </div>
-    </section>
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+        <p>Caja de seguridad para alta capacidad de depósito</p>
+      </div>
+
+      <div class="col-4">
+        <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+        <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="clearfix" id="slides3" style="display: block;" hidden>
+    <img src="images/nueva8.jpg">
+    <img src="images/nueva9.jpg">
+    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="images/arrow-left.png" style="height: 33px; width: 33px;""></a>
+    <a href="#" class="slidesjs-next slidesjs-navigation"><img src="images/arrow-right.png" style="height: 33px; width: 33px;"></a>
+  </div>
+
+  <div class="row hidden-lg hidden-md desc-responsive" id="maxima-description-resp">
+    <div class="col-4 text-center">
+      <p class="euro-font"> <span class="underline">IDEAL PARA:</span> </p>
+      <p>Vehículos de reparto de zonas de alto riesgo.</p>
+    </div>
+
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CAPACIDAD:</span></p>
+      <p>Caja de seguridad para alta capacidad de depósito</p>
+    </div>
+
+    <div class="col-4 text-center">
+      <p class="euro-font"><span class="underline">CARACTERÍSTICAS:</span></p>
+      <p>– Caja de seguridad con instalación al exterior del chasis (recomendable) con depósito por el interior de la cabina</p>
+    </div>
+  </div>
+
+</section>
 
 <!-- SECCION DE MEDIDA -->
     <section class="medida-container">
-      <div style="padding: 0 8% 0 8%;" hidden id="medida-container">
-        <p class="euro-font text-center"> PRODUCTOS A MEDIDA</p>
-        <p class="underline text-center conoce-text" >CONOCE NUESTRO <span class="underline">ENFOQUE ACORDE TUS NECESIDADES</span></p>
+
+      <div hidden id="medida-container">
+        <p class="euro-font text-center visible-lg visible-md"> PRODUCTOS A MEDIDA</p>
+
+        <p class="underline text-center conoce-text guide" >CONOCE NUESTRO <span class="underline">ENFOQUE ACORDE TUS NECESIDADES</span></p>
 
         <div class="row medida-buttons align-flex vertical">
           <div class="col-8 align-flex center">
@@ -393,8 +433,8 @@
             <p>Una vez teniendo los paso anteriores presentamos su cotización .</p>
           </div>
         </div>
-        <div>
-          <img src="images/nueva1.png" id="metodo-imagen" hidden>
+        <div class="visible-lg visible-md">
+          <img src="images/nueva1.jpg" id="metodo-imagen" hidden>
         </div>
     </section>
 
@@ -459,7 +499,7 @@
     $(function(){
       $("#slides").slidesjs({
         width: 940,
-        height: 528
+        height: 528,
       });
       $('#slides2').slidesjs({
         width: 940,
@@ -482,29 +522,16 @@
       $('#slides3').hide()
       $('#slides4').hide()
       $('#slides5').hide()
+      $('#med-description-resp').hide()
+      $('#alta-description-resp').hide()
+      $('#maxima-description-resp').hide()
     });
 
 
 
   </script>
   <script src="js/jquery.slides.min.js"></script>
-  <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function dropBtn() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
     <script type="text/javascript">
     $('button').on('click', function(){
       $('button').removeClass('selected');

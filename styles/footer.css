@@ -46,8 +46,8 @@
 }
 
 .footer-responsive {
-	margin-left: 50px;
-	padding: 17px 0 17px 0;
+	padding: 17px 0 17px 50px;
+	background-color: #2b2b2b;
 }
 
 .footer-responsive p, 
