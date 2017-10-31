@@ -30,7 +30,7 @@ nav .normal-menu li {
 nav .normal-menu #li-img {
   background-image: url(../images/logo-blk.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   float: left;
   height: 12px;
   width: 150px;
@@ -47,7 +47,7 @@ nav .normal-menu #li-img:hover {
 nav .normal-menu li a {
   background-image: none;
   color: #000;
-  font-weight: bold;
+  font-weight: 400;
   padding: 0 15px 0 15px;
   width: 100%;
 }
@@ -79,13 +79,15 @@ nav .normal-menu li a:hover {
 }
 
 .modal-header {
-  padding: 25px;
   border: 0px;
 }
 
 .modal-header img {
-  height: 12px;
-  width: 150px;
+  height: 9px;
+  width: 100px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .modal-header span {
@@ -94,25 +96,29 @@ nav .normal-menu li a:hover {
 
 .close {
   opacity: 1;
-  margin-right: 30px;
   text-shadow: none;
+  font-weight: 400;
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 .modal-body {
   height: 100vh;
-}
-
-.modal-bosy ul {
-  height: 100vh;
+  top: 20%;
 }
 
 .modal-body ul li{
   color: #000;
-  margin-bottom: 100%;
+  margin: 10% 0;
 }
 
 .modal-body a {
   text-decoration: underline;
+  font-size: 18px;
+}
+
+.modal-body a:focus {
+  color: #8e7800;
 }
 
 .hamburger-btn {
@@ -162,14 +168,27 @@ a:focus, a:hover {
 
     nav .normal-menu #li-img {
       background-image: url(../images/logo.png);
+      background-position: center;
+      background-size: contain;
+      width: 100px;
+      height: 11px;
+      margin-top: 13px;
     } 
-}
 
-@media screen and (max-width: 768px)  { 
+    nav {
+      position: fixed;
+      top: 0;
+    }
+
+    .hamburger-btn {
+      padding: 9px 3px;
+    }
 
     #head-list {
         display: none;
         background-color: red;
     }
 }
+
+
 

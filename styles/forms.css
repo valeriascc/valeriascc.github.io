@@ -109,5 +109,13 @@ button.selected {
 	border: 1px solid #fdd916;
 }
 
+@media screen and (min-width: 1024px) {
+	
+	.top-body-desc {
+		padding: 0 30%;
+	}	
+}
+
+
 
 

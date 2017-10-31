@@ -188,7 +188,7 @@ section {
 }
 
 .carousel-caption .euro-font {
-	font-size: 170%;
+	font-size: 250%;
 }
 
 #big-text-1 {
@@ -205,23 +205,6 @@ section {
 /*MEDIA */
 
 
-@media screen and (max-width: 780px) {
-
-
-/*    .carousel-caption .euro-font{
-    	font-size: 5px;
-    }*/
-
-    .slider-header p {
-    	display: none;
-    }
-
-    .slider-header img {
-    	margin: 0 auto;
-    	height: 10px;
-    	width: 106px;
-    }
-}
 
 @media screen  
 and (max-width: 1024px){
@@ -244,15 +227,39 @@ and (max-width: 1024px){
     	width: 60%;
     }
 
+
+@media screen and (max-width: 780px) {
+
+    .carousel-caption .euro-font {
+		font-size: 30px;
+	}
+
+	nav {
+		z-index: 30;
+	}
+	
 }
 
+@media screen and (max-width: 480px) {
 
-@media screen and (min-width: 1042px) {
+	.carousel-indicators {
+		bottom: 35%;
+	}
 
 	.carousel-caption .euro-font {
-		font-size: 250%;
-	}	
+		font-size: 14px;
+	}
 
+	.carousel-indicators li {
+		height: 4px; 
+		width: 4px;
+		margin: 0 2px;
+	}
+
+	.carousel-indicators .active {
+		height: 4px;
+		width: 4px;
+		margin: 0 2px;
+	}
 }
-
 

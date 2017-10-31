@@ -267,17 +267,19 @@
 .slidesjs-pagination li a {
   background-position: 0 0;
   border-radius: 30px;
-  border: 1px solid #fff;      
+  border: none;      
   display: block;
   height: 13px;
   overflow: hidden;
   padding-top: 13px;
-  width: 15px;
+  width: 13px;
+  background-color: #fff;
 }
 
 .slidesjs-pagination li a.active,
 .slidesjs-pagination li a:hover.active {
-  background-position: 0 -13px
+  background-position: 0 -13px;
+  background-color: #ffd916; 
 }
 
 .navbar {
@@ -294,10 +296,6 @@
   margin-right: 30px;
 }
 
-.active, 
-.circle:hover {
-  background-color: #ffd916;
-}
 
 .movers {
   display: flex;
@@ -328,17 +326,13 @@
   height: 100vh;
 }
 
-
+/*MEDIA QUERIES*/
 
 @media screen and (max-width: 780px) {
 
 
     .top-text {
       padding: 0 10%;
-    }
-
-    .top-text .euro-font {
-      font-size: 12px;
     }
 
     .top-text .top-main-copy p:nth-child(2) {
@@ -412,6 +406,31 @@
       font-weight: 10px;
     }
 
+    .slidesjs-pagination {
+    margin-top: -20px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  .top-text .euro-font {
+      font-size: 12px;
+    }
+  
+  .slidesjs-pagination {
+    margin-top: -20px;
+  }
+
+  .slidesjs-pagination li a {
+    height: 5px;
+    width: 5px;
+    padding-top: 0;
+  }
+
+  .slidesjs-pagination li {
+    margin: 0 3px;
+  }
 }
 
 

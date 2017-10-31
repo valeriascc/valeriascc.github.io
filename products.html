@@ -62,7 +62,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
-      <div class="slider-header fadeInUp">
+      <div class="slider-header fadeInUp hidden-xs hidden-sm">
         <p>DESDE 1992</p>
         <img src="images/logo.png">
         <p class="text-center">PRODUCTOS 100% MEXICANOS</p>
@@ -181,7 +181,7 @@
         </button>
         <img src="images/logo-blk.png">
       </div>
-      <div class="modal-body text-center align-flex center">
+      <div class="modal-body text-center">
         <ul>
           <li> <a href="index.html#acerca">ACERCA</a></li>
           <li> <a href="products.html#products">PRODUCTOS</a></li>
@@ -201,7 +201,7 @@
     <div class="top-text display-block text-center">
       <div class="top-main-copy align vertical">
         <p class="euro-font">DESDE PRODUCTOS <span>ESTANDARIZADOS</span> HASTA SOLUCIONES <span> PERSONALIZADAS </span></p>
-        <p>Logramos tener la confianza total de garantizar hasta en un <br> 200% nuestros productos de alta seguridad, nuestras <br> soluciones se abarcan a medida o de línea</p> <br> <br>
+        <p class="top-body-desc">Logramos tener la confianza total de garantizar hasta en un 200% nuestros productos de alta seguridad, nuestras soluciones se abarcan a medida o de línea</p> <br> <br>
         <p class="underline visible-lg visible-md">SELECCIONA <span class="underline"> UNA DE NUESTRAS </span> 2 OPCIONES </p>
         <button onclick="linea()" class="body-btn target" id="linea">De linea</button>
         <button onclick="medida()" class="body-btn target" id="medida">A medida</button>
@@ -213,7 +213,7 @@
 
 <section class="linea-container">
 
-<div id="lineaContainer" hidden>
+<div id="lineaContainer" class="fadeIn" hidden>
 
   <p class="underline text-center guide">SELECCIONA LA SEGURIDAD <span class="underline"> QUE NECESITAS</span></p>
 
@@ -224,10 +224,10 @@
       <button onclick="medianaBtn()" id="medianaBtn" class="reverse-btn">Mediana Seguridad</button>
     </div>
     <div class="col-4 align-flex center">
-      <button onclick="altaBtn()" class="reverse-btn">Alta Seguridad</button>
+      <button onclick="altaBtn()" class="reverse-btn" id="altaBtn">Alta Seguridad</button>
     </div>
     <div class="col-4 align-flex center">
-      <button onclick="maximaBtn()" class="reverse-btn">Maxima Seguridad</button>
+      <button onclick="maximaBtn()" class="reverse-btn" id="maximaBtn">Maxima Seguridad</button>
     </div>
 
   </div>
@@ -400,7 +400,7 @@
 <!-- SECCION DE MEDIDA -->
     <section class="medida-container">
 
-      <div hidden id="medida-container">
+      <div hidden id="medida-container" class="fadeIn">
         <p class="euro-font text-center visible-lg visible-md"> PRODUCTOS A MEDIDA</p>
 
         <p class="underline text-center conoce-text guide" >CONOCE NUESTRO <span class="underline">ENFOQUE ACORDE TUS NECESIDADES</span></p>
@@ -410,7 +410,7 @@
             <button onclick="metodoBtn()" id="metodoBtn" class="reverse-btn">MÉTODO</button>
           </div>
           <div class="col-8 align-flex center">
-            <button onclick="casosBtn()" class="reverse-btn">CASOS DE ÉXITO</button>
+            <button onclick="casosBtn()" class="reverse-btn" id="casosBtn">CASOS DE ÉXITO</button>
           </div>
         </div>
       </div>
@@ -558,6 +558,48 @@
   $("#volver-in").click(function() {
     $('html,body').animate({
         scrollTop: $(".slideshow-container").offset().top},
+        'slow');
+});
+
+  $("#linea").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#lineaContainer").offset().top},
+        'slow');
+});
+
+  $("#medida").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#medida-container").offset().top},
+        'slow');
+});
+
+  $("#metodoBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#metodo-descripcion").offset().top},
+        'slow');
+});
+
+  $("#casosBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#casos-seccion").offset().top},
+        'slow');
+});
+
+  $("#medianaBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#med-description").offset().top},
+        'slow');
+});
+
+  $("#altaBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#alta-description").offset().top},
+        'slow');
+});
+
+  $("#maximaBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#maxima-description").offset().top},
         'slow');
 });
 

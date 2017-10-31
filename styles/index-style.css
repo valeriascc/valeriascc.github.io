@@ -135,6 +135,10 @@
 	padding: 0 70px 0 70px;
 }
 
+.index-btn {
+	margin-top: 30px;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 780px) {
@@ -144,26 +148,33 @@
     	padding: 0 10%;
     }
 
-    .top-text .euro-font {
-    	font-size: 12px;
-    }
-
     .top-text .top-main-copy p:nth-child(2) {
     	font-size: 10px;
     }
 
     .home-body .col-6.align-flex.center.wow.fadeInUp {
-	height: 94px;
-	font-size: 10px;
+		height: 94px;
+		font-size: 10px;
 	}
 
 	.home-body .col-6.parent {
-	height: 200px;
+		height: 200px;
 	}
 
 	.home-body .col-6.parent p {
 		font-size: 12px;
 	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.top-text .euro-font {
+    	font-size: 12px;
+    }
+
+    .home-body .row p {
+    	padding: 0 40px;
+    }
 }
 
 

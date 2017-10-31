@@ -251,7 +251,7 @@
 	background-image: url(../images/logo-12-y.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: 150px;
+	background-size: 100px;
 	margin-bottom: 30px;
 }
 
@@ -259,7 +259,7 @@
 	background-image: url(../images/logo-12.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: 150px;
+	background-size: 100px;
 	transition: .3s;
 	margin-bottom: 30px;
 }
@@ -290,10 +290,6 @@
 
     .top-text {
     	padding: 0 10%;
-    }
-
-    .top-text .euro-font {
-    	font-size: 12px;
     }
 
     .top-text .top-main-copy p:nth-child(2) {
@@ -352,4 +348,12 @@
 		padding: 0px;
 	}
 }
+
+@media screen and (max-width: 480px) {
+  
+  .top-text .euro-font {
+      font-size: 12px;
+    }
+}
+
 
