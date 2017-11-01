@@ -5,44 +5,26 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Casegort </title>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
-      <script type="text/javascript" src="js/wow.js"></script>
-      <script type="text/javascript" src="js/header.js"></script>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
       <link rel="stylesheet" href="styles/header.css">
       <link rel="stylesheet" href="styles/animate.css">
       <link rel="stylesheet" href="styles/forms.css">
       <link rel="stylesheet" href="styles/products-style.css">
-      <script type="text/javascript" src="js/buttons.js"></script>
       <link rel="stylesheet" href="styles/footer.css">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+      <script type="text/javascript" src="js/buttons.js" async></script>
+      <script type="text/javascript" src="js/wow.js" async></script>
+      <script type="text/javascript" src="js/header.js" async></script>
+      <script type="text/javascript" src="js/slide-buttons.js" async></script>
+      <script src="js/jquery.slides.min.js" async></script>
+      <script type="text/javascript" src="js/products.js" async></script>
       <link rel="stylesheet" href="styles/slider-main2.css">
-
-    <style>
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-    }
-    </style>
-
-      <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-
-    .clearfix {
-      clear: both;
-    }
-  </style>
 
   </head>
 
@@ -494,119 +476,5 @@
       </div>
     </div>
   </div>
-
-
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528,
-      });
-      $('#slides2').slidesjs({
-        width: 940,
-        height: 528,
-      });
-      $('#slides3').slidesjs({
-        width: 940,
-        height: 528,
-      });
-      $('#slides4').slidesjs({
-        width: 940,
-        height: 528,
-      });
-      $('#slides5').slidesjs({
-        width: 940,
-        height: 528,
-      });
-      $('#slides').hide()
-      $('#slides2').hide()
-      $('#slides3').hide()
-      $('#slides4').hide()
-      $('#slides5').hide()
-      $('#med-description-resp').hide()
-      $('#alta-description-resp').hide()
-      $('#maxima-description-resp').hide()
-    });
-
-
-
-  </script>
-  <script src="js/jquery.slides.min.js"></script>
-
-    <script type="text/javascript">
-    $('button').on('click', function(){
-      $('button').removeClass('selected');
-      $(this).addClass('selected');
-    });
-    </script>
   </body>
-  <script>
-      $('.carousel').carousel({
-  interval: 4000,
-  pause: false
-})
-    </script>
-
-
-  <script>
-
-  $(".aprende-mas").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".top-body").offset().top},
-        'slow');
-});
-
-  $("#volver-in").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".slideshow-container").offset().top},
-        'slow');
-});
-
-  $("#linea").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#lineaContainer").offset().top},
-        'slow');
-});
-
-  $("#medida").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#medida-container").offset().top},
-        'slow');
-});
-
-  $("#metodoBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#metodo-descripcion").offset().top},
-        'slow');
-});
-
-  $("#casosBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#casos-seccion").offset().top},
-        'slow');
-});
-
-  $("#medianaBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#med-description").offset().top},
-        'slow');
-});
-
-  $("#altaBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#alta-description").offset().top},
-        'slow');
-});
-
-  $("#maximaBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#maxima-description").offset().top},
-        'slow');
-});
-
-  function myFunction() {
-    var x = document.getElementsByClassName("slidesjs-previous")[0].getAttribute("title");
-    document.getElementsByClassName('slidesjs-previous').style.display = 'none';
-}
-</script>
 </html>

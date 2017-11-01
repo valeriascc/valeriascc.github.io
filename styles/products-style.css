@@ -232,6 +232,14 @@
   display: none;
 }
 
+#slides {
+  display:none;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .slidesjs-navigation {
   margin-top:3px;
 }
