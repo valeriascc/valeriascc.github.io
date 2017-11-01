@@ -83,11 +83,11 @@ nav .normal-menu li a:hover {
 }
 
 .modal-header img {
-  height: 9px;
-  width: 100px;
   float: left;
+  height: 9px;
   margin-left: 5px;
   margin-top: 10px;
+  width: 100px;
 }
 
 .modal-header span {
@@ -95,11 +95,11 @@ nav .normal-menu li a:hover {
 }
 
 .close {
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 10px;
   opacity: 1;
   text-shadow: none;
-  font-weight: 400;
-  font-size: 30px;
-  margin-right: 10px;
 }
 
 .modal-body {
@@ -153,8 +153,8 @@ a:focus, a:hover {
 
 @media (max-width: 768px) {
     .modal-lg {
-        width: 100vw;
         margin: 0px;
+        width: 100vw;
     }
 
     nav .normal-menu {
@@ -170,9 +170,9 @@ a:focus, a:hover {
       background-image: url(../images/logo.png);
       background-position: center;
       background-size: contain;
-      width: 100px;
       height: 11px;
       margin-top: 13px;
+      width: 100px;
     } 
 
     nav {
@@ -185,8 +185,8 @@ a:focus, a:hover {
     }
 
     #head-list {
-        display: none;
-        background-color: red;
+      background-color: red;
+      display: none;
     }
 }
 

@@ -1,285 +1,285 @@
 .top-background {
-	background-image: url(../images/19.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+  background-image: url(../images/19.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .top-text {
-	height: 450px;
-	background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .4);
+  height: 450px;
 }
 
 .top-main-copy {
-	padding: 0 25% 0 25%;
+  padding: 0 25% 0 25%;
 }
 
 .top-main-copy .euro-font {
-	letter-spacing: 1.17px;
-	margin-bottom: 30px;
+  letter-spacing: 1.17px;
+  margin-bottom: 30px;
 }
 
 .logos-clientes {
-	padding: 100px 10% 10% 10%;
-	background-color: #101010;
+  background-color: #101010;
+  padding: 100px 10% 10% 10%;
 }
 
 .logos-container {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .logos-container {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .logos-container .col-4 {
-	height: 200px;
-	padding-left: 5%;
+  height: 200px;
+  padding-left: 5%;
 }
 
 .col-4 .euro-font {
-	color: #fdd916
+  color: #fdd916
 }
 
 .col-4 div {
-	height: 100px;
-	width: 100%;
+  height: 100px;
+  width: 100%;
 }
 
 .col-4 p {
-	font-size: 10px;
-	line-height: 15px;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 .clientes-btn {
-	margin-top: 30px;
-	border-color: #fdd916;
-	color: #fdd916;
+  margin-top: 30px;
+  border-color: #fdd916;
+  color: #fdd916;
 }
 
 .logos-container .col-4 #logo-1 {
-	background-image: url(../images/logo-1-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-1-y.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-1:hover {
-	background-image: url(../images/logo-1.png);
-	background-repeat: no-repeat;
-	background-size: 150px;
-	background-position: left;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-2 {
-	background-image: url(../images/logo-2-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-2-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-2:hover {
-	background-image: url(../images/logo-2.png);
-	background-repeat: no-repeat;
-	background-size: 100px;
-	background-position: left;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-3 {
-	background-image: url(../images/logo-3-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-3-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-3:hover {
-	background-image: url(../images/logo-3.png);
-	background-repeat: no-repeat;
-	background-size: 150px;
-	background-position: left;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-3.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-4 {
-	background-image: url(../images/logo-4-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 200px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-4-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-4:hover {
-	background-image: url(../images/logo-4.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 200px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-4.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-5 {
-	background-image: url(../images/logo-5-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-5-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-5:hover {
-	background-image: url(../images/logo-5.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-5.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-6 {
-	background-image: url(../images/logo-6-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-6-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-6:hover {
-	background-image: url(../images/logo-6.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-6.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-7 {
-	background-image: url(../images/logo-7-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-7-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-7:hover {
-	background-image: url(../images/logo-7.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-7.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-8 {
-	background-image: url(../images/logo-8-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-8-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-8:hover {
-	background-image: url(../images/logo-8.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-8.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-9 {
-	background-image: url(../images/logo-9-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-9-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-9:hover {
-	background-image: url(../images/logo-9.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-9.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-10 {
-	background-image: url(../images/logo-10-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-10-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-10:hover {
-	background-image: url(../images/logo-10.jpg);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-10.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-11 {
-	background-image: url(../images/logo-11-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-11-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-11:hover {
-	background-image: url(../images/logo-11.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 150px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-11.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-12 {
-	background-image: url(../images/logo-12-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-12-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
 }
 
 .logos-container .col-4 #logo-12:hover {
-	background-image: url(../images/logo-12.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	transition: .3s;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-12.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
+  transition: .3s;
 }
 
 .logos-container .col-4 #logo-120 {
-	background-image: url(../images/logo-120-y.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100px;
-	margin-bottom: 30px;
+  background-image: url(../images/logo-120-y.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 30px;
 }
 
 .fadeInUp {
-	animation-duration: 1s;
-	animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .logos-clientes .text-center.euro-font {
-	font-size: 10px;
-	letter-spacing: 1px;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
 
 
@@ -288,72 +288,71 @@
 @media screen and (max-width: 780px) {
 
 
-    .top-text {
-    	padding: 0 10%;
-    }
+  .top-text {
+    padding: 0 10%;
+  }
 
-    .top-text .top-main-copy p:nth-child(2) {
-    	font-size: 10px;
-    }
+  .top-text .top-main-copy p:nth-child(2) {
+    font-size: 10px;
+  }
 
-    .home-body .col-6.align-flex.center.wow.fadeInUp {
-	height: 94px;
-	font-size: 10px;
-	}
+  .home-body .col-6.align-flex.center.wow.fadeInUp {
+    height: 94px;
+    font-size: 10px;
+  }
 
-	.home-body .col-6.parent {
-	height: 200px;
-	}
+  .home-body .col-6.parent {
+    height: 200px;
+  }
 
-	.home-body .col-6.parent p {
-		font-size: 12px;
-	}
+  .home-body .col-6.parent p {
+    font-size: 12px;
+  }
 
-	.logos-container .col-4 #logo-1,
-	.logos-container .col-4 #logo-1:hover,
-	.logos-container .col-4 #logo-2,
-	.logos-container .col-4 #logo-2:hover,
-	.logos-container .col-4 #logo-3,
-	.logos-container .col-4 #logo-3:hover,
-	.logos-container .col-4 #logo-4,
-	.logos-container .col-4 #logo-4:hover,
-	.logos-container .col-4 #logo-5,
-	.logos-container .col-4 #logo-5:hover,
-	.logos-container .col-4 #logo-6,
-	.logos-container .col-4 #logo-6:hover,
-	.logos-container .col-4 #logo-7,
-	.logos-container .col-4 #logo-7:hover,
-	.logos-container .col-4 #logo-8,
-	.logos-container .col-4 #logo-8:hover,
-	.logos-container .col-4 #logo-9,
-	.logos-container .col-4 #logo-9:hover,
-	.logos-container .col-4 #logo-10,
-	.logos-container .col-4 #logo-10:hover,
-	.logos-container .col-4 #logo-11,
-	.logos-container .col-4 #logo-11:hover,
-	.logos-container .col-4 #logo-12,
-	.logos-container .col-4 #logo-12:hover,
-	.logos-container .col-4 #logo-120,
-	.logos-container .col-4 #logo-120:hover
-	 {
-		background-position: center;
-		margin-bottom: 10px;
-	}
+  .logos-container .col-4 #logo-1,
+  .logos-container .col-4 #logo-1:hover,
+  .logos-container .col-4 #logo-2,
+  .logos-container .col-4 #logo-2:hover,
+  .logos-container .col-4 #logo-3,
+  .logos-container .col-4 #logo-3:hover,
+  .logos-container .col-4 #logo-4,
+  .logos-container .col-4 #logo-4:hover,
+  .logos-container .col-4 #logo-5,
+  .logos-container .col-4 #logo-5:hover,
+  .logos-container .col-4 #logo-6,
+  .logos-container .col-4 #logo-6:hover,
+  .logos-container .col-4 #logo-7,
+  .logos-container .col-4 #logo-7:hover,
+  .logos-container .col-4 #logo-8,
+  .logos-container .col-4 #logo-8:hover,
+  .logos-container .col-4 #logo-9,
+  .logos-container .col-4 #logo-9:hover,
+  .logos-container .col-4 #logo-10,
+  .logos-container .col-4 #logo-10:hover,
+  .logos-container .col-4 #logo-11,
+  .logos-container .col-4 #logo-11:hover,
+  .logos-container .col-4 #logo-12,
+  .logos-container .col-4 #logo-12:hover,
+  .logos-container .col-4 #logo-120,
+  .logos-container .col-4 #logo-120:hover {
+      background-position: center;
+      margin-bottom: 10px;
+  }
 
-	.logos-container .col-4 {
-		text-align: center;
-	}
+  .logos-container .col-4 {
+      text-align: center;
+  }
 
-	.top-main-copy {
-		padding: 0px;
-	}
+  .top-main-copy {
+      padding: 0px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  
-  .top-text .euro-font {
-      font-size: 12px;
-    }
+
+.top-text .euro-font {
+    font-size: 12px;
+  }
 }
 
 

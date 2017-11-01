@@ -1,68 +1,68 @@
 .footer {
-	background-color: #1f1f1f;
-	height: 100%;
-	position: relative;
+  background-color: #1f1f1f;
+  height: 100%;
+  position: relative;
 }
 
 .footer .col-6 img{
-	height: 16px;
-	width: 159px;
-	margin-left: 30%;
+  height: 16px;
+  margin-left: 30%;
+  width: 159px;
 }
 
 .footer .col-2 a{
-	display: block;
-	color: #fff;
+  color: #fff;
+  display: block;
 }
 
 
 .footer .col-4 img {
-	height: 20px;
-	width: 20px;
-	margin: 15px 0 15px 0;
+  height: 20px;
+  margin: 15px 0 15px 0;
+  width: 20px;
 }
 
 .footer .col-4 button {
-	background-color: none;
-	border: none;
-	padding: 0px  0px;
-	font-size: 12px;
-	display: block;
-	text-decoration-line: underline
+  background-color: none;
+  border: none;
+  display: block;
+  font-size: 12px;
+  padding: 0px  0px;
+  text-decoration-line: underline
 }
 
 .footer .col-4 button:hover {
-	background-color: #1f1f1f ;
-	color: #fff;
-	border: none;
-	padding: 0px  0px;
+  background-color: #1f1f1f ;
+  border: none;
+  color: #fff;
+  padding: 0px  0px;
 }
 
 .footer .col-2,
 .footer .col-4,
 .footer .col-6 {
-	padding: 50px 0 50px 0;
-	line-height: 30px;
+  line-height: 30px;
+  padding: 50px 0 50px 0;
 }
 
 .footer-responsive {
-	padding: 17px 0 17px 50px;
-	background-color: #2b2b2b;
+  background-color: #2b2b2b;
+  padding: 17px 0 17px 50px;
 }
 
 .footer-responsive p, 
 .footer-responsive a {
-	font-size: 6px;
-	line-height: 14px;
+  font-size: 6px;
+  line-height: 14px;
 }
 
 .footer-responsive img {
-	height: 7px;
-	width: 60px;
-	margin-bottom: 7px
+  height: 7px;
+  margin-bottom: 7px
+  width: 60px;
 }
 
 .footer-responsive div p, a {
-	display: inline-block;
+  display: inline-block;
 }
 

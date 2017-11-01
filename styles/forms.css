@@ -2,68 +2,68 @@
 
 
 @font-face {
-	font-family: "EurostileLTStd-BoldEx2";
+  font-family: "EurostileLTStd-BoldEx2";
     src: url("../fonts/EUROSTILE/EurostileLTStd-BoldEx2.otf");
 }
 
 @font-face {
-	font-family: "Akkurat-mono";
+  font-family: "Akkurat-mono";
     src: url("../fonts/AKKURAT/Akkurat-Mono.otf");
 }
 
 * {
-  font-family: "Akkurat-mono", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-decoration: none;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
   color: #fff;
+  font-family: "Akkurat-mono", sans-serif;
+  font-size: 12px;
   overflow: hidden;
+  text-decoration: none;
 }
 
 
 .euro-font, .eurofont p, span{
-	font-family: "EurostileLTStd-BoldEx2";
-	font-size: 20px;
+  font-family: "EurostileLTStd-BoldEx2";
+  font-size: 20px;
 }
 
 .slider-text .main-copy p{
-	font-size: 32px;
+  font-size: 32px;
 }
 
 span {
-	color: #fdd916;
-	font: inherit;
+  color: #fdd916;
+  font: inherit;
 }
 
 .circle {
-	height: 10px;
-	width: 10px;
-	background-color: #fff;
-	display: inline-block;
-	border-radius: 30px;
-	margin: 30px 10px 0 10px;
-	transition: background-color 0.4s ease;
+  background-color: #fff;
+  border-radius: 30px;
+  display: inline-block;
+  height: 10px;
+  margin: 30px 10px 0 10px;
+  transition: background-color 0.4s ease;
+  width: 10px;
 }
 
 button {
-	background-color: none;
-	border: 1px solid #fff;
-	border-radius: 30px;
-	padding: 9px  45px;
-	font-size: 10px;
-	display: inline-block;
+  background-color: none;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-size: 10px;
+  padding: 9px  45px;
 }
 
 button:hover {
-	background-color: #fdd916;
-	color: #000;
-	border: 1px solid #fdd916;
-	transition: .2s;
+  background-color: #fdd916;
+  border: 1px solid #fdd916;
+  color: #000;
+  transition: .2s;
 }
 
 .underline {
-	text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .medida-buttons button {
@@ -77,43 +77,43 @@ button:hover {
 }
 
 button.selected {
-	background-color: #fdd916;
-	color: #000;
-	border: 1px solid #fdd916;
+  background-color: #fdd916;
+  border: 1px solid #fdd916;
+  color: #000;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 #hidden {
-	display: none;
+  display: none;
 }
 
 .visible {
-	display: block;
+  display: block;
 }
 
 .slideshow-container {
-	background-color: #000;
+  background-color: #000;
 }
 
 .fadeInUp {
-	animation-duration: 1s;
-	animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .reverse-btn:hover {
-	background-color: #fdd916;
-	color: #000;
-	border: 1px solid #fdd916;
+  background-color: #fdd916;
+  border: 1px solid #fdd916;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {
-	
-	.top-body-desc {
-		padding: 0 30%;
-	}	
+  
+  .top-body-desc {
+    padding: 0 30%;
+  } 
 }
 
 
